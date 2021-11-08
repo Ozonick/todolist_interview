@@ -21,7 +21,7 @@ const TodoList = () => {
   }, []);
   return (
     <>
-      <h2>TodoList</h2>
+      <h2>ToDoList</h2>
       <motion.div layout>
         {todoList
           ? todoList.map((todo, index) => <Todo todo={todo} key={index} />)
